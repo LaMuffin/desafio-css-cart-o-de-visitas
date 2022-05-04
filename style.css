@@ -15,7 +15,7 @@ body{
 
 }
 
-.nome:hover{
+.nome{
 
     text-align: left;
     font-family: 'times new roman';
@@ -23,11 +23,24 @@ body{
     
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'times new roman';
+    
+}
+
+a:visited{
+    text-decoration: none;
+    color: #000;
+    font-family: 'times new roman';
+}
+
 .sites{
 
     text-align: center;
     list-style-position: inside;  
-
+    text-decoration: none;
 }
 
 .youtube{
