@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(241, 238, 238);
+}
+
+.card{
+
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 1px 20px;
+    background-image: url("assets/card_white.jpg");
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;   
+
+}
+
+.nome:hover{
+
+    text-align: left;
+    font-family: 'times new roman';
+    text-shadow: 50px;
+    
+}
+
+.sites{
+
+    text-align: center;
+    list-style-position: inside;  
+
+}
+
+.youtube{
+
+    list-style-image: url('/assets/Youtube.png'); 
+
+}
+
+.github{
+
+    list-style-image: url('/assets/Github.png');
+
+}
+
+
+
